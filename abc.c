@@ -1,4 +1,4 @@
 #include<stdio.h>
 
-static int num1 = 100;
-static int num2=200;
+int num1 = 100;
+int num2=200;

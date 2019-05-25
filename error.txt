@@ -1,0 +1,7 @@
+root@localhost:~/c_programs/scope1# gcc  abc.c abc1.c -o abcx.o
+/tmp/ccKKmliz.o:(.data+0x0): multiple definition of `num1'
+/tmp/cctEiiVQ.o:(.data+0x0): first defined here
+/tmp/ccKKmliz.o:(.data+0x4): multiple definition of `num2'
+/tmp/cctEiiVQ.o:(.data+0x4): first defined here
+collect2: error: ld returned 1 exit status
+
